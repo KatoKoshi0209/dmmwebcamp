@@ -91,6 +91,7 @@ GEM
     ffi (1.17.1)
     ffi (1.17.1-arm64-darwin)
     ffi (1.17.1-x86_64-darwin)
+    ffi (1.17.1-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.6)
@@ -132,6 +133,8 @@ GEM
     nokogiri (1.18.1-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.1-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.1-x86_64-linux-gnu)
       racc (~> 1.4)
     public_suffix (6.0.1)
     puma (5.6.9)
@@ -263,7 +266,7 @@ DEPENDENCIES
   rails (~> 6.1.7, >= 6.1.7.10)
   rspec-rails
   sass-rails (>= 6)
-  spring
+  spring (= 4.2.1)
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
